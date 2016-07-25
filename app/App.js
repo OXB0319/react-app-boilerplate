@@ -7,11 +7,12 @@ import MyApp from './MyApp';
 import cardsList from './service';
 
 
+
 class App extends Component {
   render(){
     return (
         <div>
-            <MyApp cards={cardsList}/>
+            <MyApp cards={contacts}/>
         </div>
     );
   }

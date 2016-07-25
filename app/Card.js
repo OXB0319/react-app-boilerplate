@@ -4,6 +4,18 @@ import marked from 'marked';
 /**
  * Created by xiaobing on 2016/7/21.
  */
+
+let titlePropType = (props, propName, componentName) => {
+    if (props[propName]) {
+        let value = props[propName];
+        if (typeof value !== 'string' || value.length > 80) {
+            return new Error(
+                `${propName} in ${componentName} is longer than 80 characters`
+            );
+        }
+    }
+}
+
 class Card extends Component {
     constructor(name) {
         super(...arguments);
@@ -14,6 +26,7 @@ class Card extends Component {
 
     onToggleDetail(){
         this.setState({showDetail:!this.state.showDetail});
+        this.render();
     }
 
     render() {
@@ -41,20 +54,31 @@ class Card extends Component {
             );
         }
         else{
+            cardDetail =null;
             if(this.refs.sideColor) {
                 this.refs.sideColor.style.backgroundColor = 'red';
             }
+
         }
 
         return (
             <div className="card">
                 <div ref="sideColor" style={sideColor}></div>
-                <div className={this.state.showDetails? "card__title card__title--is-open" : "card__title"} onClick={this.onToggleDetail.bind(this)}>{this.props.title}</div>
+                <div className={this.state.showDetail? "divArrowRight" : "divArrowDown"}  style={{float:'left'}} onClick={this.onToggleDetail.bind(this)}></div>
+                <div ref="showDetails" className= {this.state.showDetail? "card__title--is-open" : "card__title"} onClick={this.onToggleDetail.bind(this)}>{this.props.title}</div>
                 {cardDetail}
             </div>
         );
 
     }
+};
+
+Card.propTypes = {
+    id: PropTypes.number,
+    title: titlePropType,
+    description: PropTypes.string,
+    color: PropTypes.string,
+    tasks: PropTypes.arrayOf(PropTypes.object)
 };
 
 export default Card;

@@ -5,7 +5,7 @@ var webpack = require('webpack');
  */
 var config = {
   devtool: 'eval-source-map',
-  entry:  __dirname + "/app/App.js",
+  entry:  __dirname + "/architecting/ContactsApp.js",
   output: {
     path: __dirname + "/public",
     filename: "bundle.js"
@@ -18,7 +18,8 @@ var config = {
       query: {
         presets: ['es2015','react']
       }
-    }]
+    }
+    ]
   },
   devServer: {
     contentBase: "./public",

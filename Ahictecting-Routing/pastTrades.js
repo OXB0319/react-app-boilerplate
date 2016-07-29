@@ -4,8 +4,18 @@
 import React,{Component}  from 'react';
 
 class  PastTrades extends Component{
+    constructor(){
+        super();
+        this.state = {pastTrades:[]}
+    }
+
+    componentDidMount(){
+        this.props.route.data.then((data)=>this.setState({pastTrades:data.trades}))
+        }
+
     render(){
-        return(<div>Past Trades</div>);
+        let pastTrades = this.state.pastTrades.map((trade)=>(<div key={trade.id}>{trade.stockSymbol}</div>))
+        return(<div>Past Trades{pastTrades}</div>);
     }
 }
 

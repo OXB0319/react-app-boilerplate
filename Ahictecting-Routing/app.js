@@ -5,9 +5,17 @@ import React, {Component} from 'react';
 import CurrentTrades from './currentTrades';
 import PastTrades from './pastTrades';
 import {render} from 'react-dom';
-import { Router, Route, IndexRoute, Link } from 'react-router';
+import 'whatwg-fetch';
+import { Router, Route, IndexRoute, Link, hashHistory } from 'react-router';
+import {CURRENT_TRADES,PAST_TRADES} from './const';
+import  dataProvider from '../DataProvider/CustomDataProvirder'
+
+let currentTrades = dataProvider.GetCurrentTrades();
+let pastTrades = dataProvider.GetPastTrades();
+
 
 class App extends Component {
+
     constructor() {
         super(...arguments);
         this.state = {
@@ -17,8 +25,6 @@ class App extends Component {
 
     componentDidMount() {
         window.addEventListener('hashchange', () => {
-            console.log('adasdasdasd');
-            console.log(window.location.hash);
             this.setState({
                 route: window.location.hash.substr(1)
             });
@@ -26,48 +32,26 @@ class App extends Component {
     }
 
     render() {
-        var Child;
-        var classPast='', classCurrent='', classAbout='', classCurrent='';
-        switch (this.state.route) {
-            case '/':
-                Child = CurrentTrades;
-                classCurrent='active';
-                break;
-            case '/past':
-                Child = PastTrades;
-                classPast='active';
-                break;
-            case '/about':
-                Child = PastTrades;
-                classAbout='active';
-                break;
-            case '/concern':
-                Child = PastTrades;
-                classAbout='active';
-                break;
-            default:
-                Child = CurrentTrades;
-        }
-
         return (
             <div>
                 <menu>
                     <ul className="nav nav-tabs">
-                        <li><Link to="/"  activeClassName="active" >Current Trades</Link></li>
-                        <li><Link to="/past"  activeClassName="active" >Past Trades</Link></li>
+                        <li><Link to="/"  ref="Current" activeClassName="active" >{this.props.route.title.currentTrade}</Link></li>
+                        <li><Link to="/past"  activeClassName="active" >{this.props.route.title.pastTrade}</Link></li>
                         <li><Link to="/about"  activeClassName="active" >About</Link></li>
                         <li><Link to="/concern"  activeClassName="active" >Concern</Link></li>
                     </ul>
+                    {this.props.children}
                 </menu>
-                <Child/>
             </div>
         );
     }
 }
 
-render((<Router>
-    <Route path="/" component={App}>
-        <IndexRoute component={PastTrades}/>
-        <Route path="past" component={PastTrades} title="Past Trades" />
+render((<Router history={hashHistory}>
+    <Route path="/" component = {App} title={{currentTrade : CURRENT_TRADES, pastTrade : PAST_TRADES}}>
+        <IndexRoute component={CurrentTrades}  title= {CURRENT_TRADES} data = {currentTrades} />
+        <Route path="past" component= {PastTrades} title= {PAST_TRADES}  data = {pastTrades}/>
+        <Route path="/" component= {CurrentTrades} title= {CURRENT_TRADES} />
     </Route>
 </Router>), document.getElementById('root'));

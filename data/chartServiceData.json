@@ -1,0 +1,1168 @@
+{
+  "GetDataResult": {
+    "asOf": "\/Date(1467859116042-0700)\/",
+    "companyInfo": {
+      "avgVolume": 41756900,
+      "avgVolumeAsLabel": "41,756,900",
+      "coName": "Apple Inc",
+      "dayRate": 1,
+      "hasConvertableIssue": true,
+      "hasWarrant": true,
+      "industryGroup": "Telecom-Consumer Prods",
+      "marketCapitalizationPrimary": 5.232584E+11,
+      "marketCapitalizationPrimaryAsLabel": "$523.26 Billion",
+      "marketCapitalizationSecondary": 0,
+      "offWeekHigh": -0.281567276,
+      "price": 95.53,
+      "priceChange": 0.54,
+      "primaryExchange": "NASDAQ",
+      "sharesInFloat": 0,
+      "sharesOutstandingPrimary": 5477425000,
+      "sharesOutstandingPrimaryAsLabel": "5477.4 Mil.",
+      "sharesOutstandingSecondary": 0,
+      "shortInterestPosition": 1.50691354,
+      "shortInterestRatio": -10,
+      "symbol": "AAPL",
+      "type": "Stock",
+      "volume": 30949000,
+      "volumeBase": 0,
+      "weeksHigh": 132.97,
+      "weeksLow": 89.47
+    },
+    "ePSRating": 65,
+    "endDate": "\/Date(1467874800000-0700)\/",
+    "errorMessage": "",
+    "fiscalMonthEnd": 9,
+    "holidays": [
+      {
+        "date": "\/Date(1455523200000-0800)\/",
+        "holiday": "Holiday"
+      },
+      {
+        "date": "\/Date(1458889200000-0700)\/",
+        "holiday": "Holiday"
+      },
+      {
+        "date": "\/Date(1464591600000-0700)\/",
+        "holiday": "Holiday"
+      },
+      {
+        "date": "\/Date(1467615600000-0700)\/",
+        "holiday": "Holiday"
+      }
+    ],
+    "osid": 0,
+    "rSRating": 18,
+    "series": [
+      {
+        "close": 95.53,
+        "date": "\/Date(1467788400000-0700)\/",
+        "dateIndicator": 0,
+        "high": 95.66,
+        "indexClose": 2099.73,
+        "low": 94.37,
+        "volume": 30949000
+      },
+      {
+        "close": 94.99,
+        "date": "\/Date(1467702000000-0700)\/",
+        "dateIndicator": 0,
+        "high": 95.4,
+        "indexClose": 2088.55,
+        "low": 94.46,
+        "volume": 27705200
+      },
+      {
+        "close": 95.89,
+        "date": "\/Date(1467615600000-0700)\/",
+        "dateIndicator": 1,
+        "high": 96.465,
+        "indexClose": 2102.95,
+        "low": 95.33,
+        "volume": 0
+      },
+      {
+        "close": 95.89,
+        "date": "\/Date(1467356400000-0700)\/",
+        "dateIndicator": 0,
+        "high": 96.465,
+        "indexClose": 2102.95,
+        "low": 95.33,
+        "volume": 26026500
+      },
+      {
+        "close": 95.6,
+        "date": "\/Date(1467270000000-0700)\/",
+        "dateIndicator": 0,
+        "high": 95.77,
+        "indexClose": 2098.86,
+        "low": 94.3,
+        "volume": 35836300
+      },
+      {
+        "close": 94.4,
+        "date": "\/Date(1467183600000-0700)\/",
+        "dateIndicator": 0,
+        "high": 94.55,
+        "indexClose": 2070.77,
+        "low": 93.63,
+        "volume": 36531000
+      },
+      {
+        "close": 93.59,
+        "date": "\/Date(1467097200000-0700)\/",
+        "dateIndicator": 0,
+        "high": 93.66,
+        "indexClose": 2036.09,
+        "low": 92.14,
+        "volume": 40444900
+      },
+      {
+        "close": 92.04,
+        "date": "\/Date(1467010800000-0700)\/",
+        "dateIndicator": 0,
+        "high": 93.05,
+        "indexClose": 2000.54,
+        "low": 91.5,
+        "volume": 46622100
+      },
+      {
+        "close": 93.4,
+        "date": "\/Date(1466751600000-0700)\/",
+        "dateIndicator": 0,
+        "high": 94.655,
+        "indexClose": 2037.41,
+        "low": 92.65,
+        "volume": 75311300
+      },
+      {
+        "close": 96.1,
+        "date": "\/Date(1466665200000-0700)\/",
+        "dateIndicator": 0,
+        "high": 96.29,
+        "indexClose": 2113.32,
+        "low": 95.25,
+        "volume": 32240100
+      },
+      {
+        "close": 95.55,
+        "date": "\/Date(1466578800000-0700)\/",
+        "dateIndicator": 0,
+        "high": 96.89,
+        "indexClose": 2085.45,
+        "low": 95.35,
+        "volume": 29219100
+      },
+      {
+        "close": 95.91,
+        "date": "\/Date(1466492400000-0700)\/",
+        "dateIndicator": 0,
+        "high": 96.35,
+        "indexClose": 2088.9,
+        "low": 94.676,
+        "volume": 35546300
+      },
+      {
+        "close": 95.1,
+        "date": "\/Date(1466406000000-0700)\/",
+        "dateIndicator": 0,
+        "high": 96.57,
+        "indexClose": 2083.25,
+        "low": 95.03,
+        "volume": 34411900
+      },
+      {
+        "close": 95.33,
+        "date": "\/Date(1466146800000-0700)\/",
+        "dateIndicator": 0,
+        "high": 96.65,
+        "indexClose": 2071.22,
+        "low": 95.3,
+        "volume": 61008200
+      },
+      {
+        "close": 97.55,
+        "date": "\/Date(1466060400000-0700)\/",
+        "dateIndicator": 0,
+        "high": 97.75,
+        "indexClose": 2077.99,
+        "low": 96.07,
+        "volume": 31326800
+      },
+      {
+        "close": 97.14,
+        "date": "\/Date(1465974000000-0700)\/",
+        "dateIndicator": 0,
+        "high": 98.41,
+        "indexClose": 2071.5,
+        "low": 97.03,
+        "volume": 29445200
+      },
+      {
+        "close": 97.46,
+        "date": "\/Date(1465887600000-0700)\/",
+        "dateIndicator": 0,
+        "high": 98.475,
+        "indexClose": 2075.32,
+        "low": 96.75,
+        "volume": 31931900
+      },
+      {
+        "close": 97.34,
+        "date": "\/Date(1465801200000-0700)\/",
+        "dateIndicator": 0,
+        "high": 99.12,
+        "indexClose": 2079.06,
+        "low": 97.1,
+        "volume": 38020400
+      },
+      {
+        "close": 98.83,
+        "date": "\/Date(1465542000000-0700)\/",
+        "dateIndicator": 0,
+        "high": 99.3457,
+        "indexClose": 2096.07,
+        "low": 98.48,
+        "volume": 31712900
+      },
+      {
+        "close": 99.65,
+        "date": "\/Date(1465455600000-0700)\/",
+        "dateIndicator": 0,
+        "high": 99.99,
+        "indexClose": 2115.48,
+        "low": 98.46,
+        "volume": 26601300
+      },
+      {
+        "close": 98.94,
+        "date": "\/Date(1465369200000-0700)\/",
+        "dateIndicator": 0,
+        "high": 99.56,
+        "indexClose": 2119.12,
+        "low": 98.68,
+        "volume": 20848100
+      },
+      {
+        "close": 99.03,
+        "date": "\/Date(1465282800000-0700)\/",
+        "dateIndicator": 0,
+        "high": 99.87,
+        "indexClose": 2112.13,
+        "low": 98.96,
+        "volume": 22409400
+      },
+      {
+        "close": 98.63,
+        "date": "\/Date(1465196400000-0700)\/",
+        "dateIndicator": 0,
+        "high": 101.89,
+        "indexClose": 2109.41,
+        "low": 97.55,
+        "volume": 23292500
+      },
+      {
+        "close": 97.92,
+        "date": "\/Date(1464937200000-0700)\/",
+        "dateIndicator": 0,
+        "high": 98.27,
+        "indexClose": 2099.13,
+        "low": 97.45,
+        "volume": 28504800
+      },
+      {
+        "close": 97.72,
+        "date": "\/Date(1464850800000-0700)\/",
+        "dateIndicator": 0,
+        "high": 97.84,
+        "indexClose": 2105.26,
+        "low": 96.63,
+        "volume": 40191600
+      },
+      {
+        "close": 98.46,
+        "date": "\/Date(1464764400000-0700)\/",
+        "dateIndicator": 0,
+        "high": 99.54,
+        "indexClose": 2099.33,
+        "low": 98.33,
+        "volume": 29173200
+      },
+      {
+        "close": 99.86,
+        "date": "\/Date(1464678000000-0700)\/",
+        "dateIndicator": 0,
+        "high": 100.4,
+        "indexClose": 2096.96,
+        "low": 98.82,
+        "volume": 42307200
+      },
+      {
+        "close": 100.35,
+        "date": "\/Date(1464591600000-0700)\/",
+        "dateIndicator": 1,
+        "high": 100.47,
+        "indexClose": 2099.06,
+        "low": 99.245,
+        "volume": 0
+      },
+      {
+        "close": 100.35,
+        "date": "\/Date(1464332400000-0700)\/",
+        "dateIndicator": 0,
+        "high": 100.47,
+        "indexClose": 2099.06,
+        "low": 99.245,
+        "volume": 36341200
+      },
+      {
+        "close": 100.41,
+        "date": "\/Date(1464246000000-0700)\/",
+        "dateIndicator": 0,
+        "high": 100.73,
+        "indexClose": 2090.1,
+        "low": 98.64,
+        "volume": 56331100
+      },
+      {
+        "close": 99.62,
+        "date": "\/Date(1464159600000-0700)\/",
+        "dateIndicator": 0,
+        "high": 99.74,
+        "indexClose": 2090.54,
+        "low": 98.11,
+        "volume": 38642100
+      },
+      {
+        "close": 97.9,
+        "date": "\/Date(1464073200000-0700)\/",
+        "dateIndicator": 0,
+        "high": 98.09,
+        "indexClose": 2076.06,
+        "low": 96.84,
+        "volume": 35140100
+      },
+      {
+        "close": 96.43,
+        "date": "\/Date(1463986800000-0700)\/",
+        "dateIndicator": 0,
+        "high": 97.19,
+        "indexClose": 2048.04,
+        "low": 95.67,
+        "volume": 38018600
+      },
+      {
+        "close": 95.22,
+        "date": "\/Date(1463727600000-0700)\/",
+        "dateIndicator": 0,
+        "high": 95.43,
+        "indexClose": 2052.32,
+        "low": 94.52,
+        "volume": 32025900
+      },
+      {
+        "close": 94.2,
+        "date": "\/Date(1463641200000-0700)\/",
+        "dateIndicator": 0,
+        "high": 94.64,
+        "indexClose": 2040.04,
+        "low": 93.57,
+        "volume": 30442100
+      },
+      {
+        "close": 94.56,
+        "date": "\/Date(1463554800000-0700)\/",
+        "dateIndicator": 0,
+        "high": 95.21,
+        "indexClose": 2047.63,
+        "low": 93.89,
+        "volume": 42062300
+      },
+      {
+        "close": 93.49,
+        "date": "\/Date(1463468400000-0700)\/",
+        "dateIndicator": 0,
+        "high": 94.7,
+        "indexClose": 2047.21,
+        "low": 93.01,
+        "volume": 46916900
+      },
+      {
+        "close": 93.88,
+        "date": "\/Date(1463382000000-0700)\/",
+        "dateIndicator": 0,
+        "high": 94.39,
+        "indexClose": 2066.66,
+        "low": 91.65,
+        "volume": 61259700
+      },
+      {
+        "close": 90.52,
+        "date": "\/Date(1463122800000-0700)\/",
+        "dateIndicator": 0,
+        "high": 91.67,
+        "indexClose": 2046.61,
+        "low": 90,
+        "volume": 44392700
+      },
+      {
+        "close": 90.34,
+        "date": "\/Date(1463036400000-0700)\/",
+        "dateIndicator": 0,
+        "high": 92.78,
+        "indexClose": 2064.11,
+        "low": 89.47,
+        "volume": 76314600
+      },
+      {
+        "close": 92.51,
+        "date": "\/Date(1462950000000-0700)\/",
+        "dateIndicator": 0,
+        "high": 93.57,
+        "indexClose": 2064.46,
+        "low": 92.46,
+        "volume": 28719100
+      },
+      {
+        "close": 93.42,
+        "date": "\/Date(1462863600000-0700)\/",
+        "dateIndicator": 0,
+        "high": 93.57,
+        "indexClose": 2084.39,
+        "low": 92.11,
+        "volume": 33686800
+      },
+      {
+        "close": 92.79,
+        "date": "\/Date(1462777200000-0700)\/",
+        "dateIndicator": 0,
+        "high": 93.77,
+        "indexClose": 2058.69,
+        "low": 92.59,
+        "volume": 32936400
+      },
+      {
+        "close": 92.72,
+        "date": "\/Date(1462518000000-0700)\/",
+        "dateIndicator": 0,
+        "high": 93.45,
+        "indexClose": 2057.14,
+        "low": 91.85,
+        "volume": 43699800
+      },
+      {
+        "close": 93.24,
+        "date": "\/Date(1462431600000-0700)\/",
+        "dateIndicator": 0,
+        "high": 94.07,
+        "indexClose": 2050.63,
+        "low": 92.68,
+        "volume": 35890500
+      },
+      {
+        "close": 94.19,
+        "date": "\/Date(1462345200000-0700)\/",
+        "dateIndicator": 0,
+        "high": 95.9,
+        "indexClose": 2051.12,
+        "low": 93.82,
+        "volume": 41025400
+      },
+      {
+        "close": 95.18,
+        "date": "\/Date(1462258800000-0700)\/",
+        "dateIndicator": 0,
+        "high": 95.74,
+        "indexClose": 2063.37,
+        "low": 93.68,
+        "volume": 56831200
+      },
+      {
+        "close": 93.64,
+        "date": "\/Date(1462172400000-0700)\/",
+        "dateIndicator": 0,
+        "high": 94.08,
+        "indexClose": 2081.43,
+        "low": 92.4,
+        "volume": 48160100
+      },
+      {
+        "close": 93.74,
+        "date": "\/Date(1461913200000-0700)\/",
+        "dateIndicator": 0,
+        "high": 94.72,
+        "indexClose": 2065.3,
+        "low": 92.51,
+        "volume": 68531400
+      },
+      {
+        "close": 94.83,
+        "date": "\/Date(1461826800000-0700)\/",
+        "dateIndicator": 0,
+        "high": 97.88,
+        "indexClose": 2075.81,
+        "low": 94.25,
+        "volume": 82242600
+      },
+      {
+        "close": 97.82,
+        "date": "\/Date(1461740400000-0700)\/",
+        "dateIndicator": 0,
+        "high": 98.71,
+        "indexClose": 2095.15,
+        "low": 95.68,
+        "volume": 114602100
+      },
+      {
+        "close": 104.35,
+        "date": "\/Date(1461654000000-0700)\/",
+        "dateIndicator": 0,
+        "high": 105.3,
+        "indexClose": 2091.7,
+        "low": 103.91,
+        "volume": 56016100
+      },
+      {
+        "close": 105.08,
+        "date": "\/Date(1461567600000-0700)\/",
+        "dateIndicator": 0,
+        "high": 105.65,
+        "indexClose": 2087.79,
+        "low": 104.51,
+        "volume": 28031500
+      },
+      {
+        "close": 105.68,
+        "date": "\/Date(1461308400000-0700)\/",
+        "dateIndicator": 0,
+        "high": 106.48,
+        "indexClose": 2091.58,
+        "low": 104.62,
+        "volume": 33683100
+      },
+      {
+        "close": 105.97,
+        "date": "\/Date(1461222000000-0700)\/",
+        "dateIndicator": 0,
+        "high": 106.93,
+        "indexClose": 2091.48,
+        "low": 105.52,
+        "volume": 31552500
+      },
+      {
+        "close": 107.13,
+        "date": "\/Date(1461135600000-0700)\/",
+        "dateIndicator": 0,
+        "high": 108.09,
+        "indexClose": 2102.4,
+        "low": 106.06,
+        "volume": 30611000
+      },
+      {
+        "close": 106.91,
+        "date": "\/Date(1461049200000-0700)\/",
+        "dateIndicator": 0,
+        "high": 108,
+        "indexClose": 2100.8,
+        "low": 106.23,
+        "volume": 32384800
+      },
+      {
+        "close": 107.48,
+        "date": "\/Date(1460962800000-0700)\/",
+        "dateIndicator": 0,
+        "high": 108.95,
+        "indexClose": 2094.34,
+        "low": 106.94,
+        "volume": 60821400
+      },
+      {
+        "close": 109.85,
+        "date": "\/Date(1460703600000-0700)\/",
+        "dateIndicator": 0,
+        "high": 112.3,
+        "indexClose": 2080.73,
+        "low": 109.73,
+        "volume": 46938900
+      },
+      {
+        "close": 112.1,
+        "date": "\/Date(1460617200000-0700)\/",
+        "dateIndicator": 0,
+        "high": 112.39,
+        "indexClose": 2082.78,
+        "low": 111.33,
+        "volume": 25473900
+      },
+      {
+        "close": 112.04,
+        "date": "\/Date(1460530800000-0700)\/",
+        "dateIndicator": 0,
+        "high": 112.34,
+        "indexClose": 2082.42,
+        "low": 110.8,
+        "volume": 33257300
+      },
+      {
+        "close": 110.44,
+        "date": "\/Date(1460444400000-0700)\/",
+        "dateIndicator": 0,
+        "high": 110.5,
+        "indexClose": 2061.72,
+        "low": 108.66,
+        "volume": 27232300
+      },
+      {
+        "close": 109.02,
+        "date": "\/Date(1460358000000-0700)\/",
+        "dateIndicator": 0,
+        "high": 110.61,
+        "indexClose": 2041.99,
+        "low": 108.83,
+        "volume": 29407500
+      },
+      {
+        "close": 108.66,
+        "date": "\/Date(1460098800000-0700)\/",
+        "dateIndicator": 0,
+        "high": 109.77,
+        "indexClose": 2047.6,
+        "low": 108.17,
+        "volume": 23581700
+      },
+      {
+        "close": 108.54,
+        "date": "\/Date(1460012400000-0700)\/",
+        "dateIndicator": 0,
+        "high": 110.42,
+        "indexClose": 2041.91,
+        "low": 108.121,
+        "volume": 31801800
+      },
+      {
+        "close": 110.96,
+        "date": "\/Date(1459926000000-0700)\/",
+        "dateIndicator": 0,
+        "high": 110.98,
+        "indexClose": 2066.66,
+        "low": 109.2,
+        "volume": 26404000
+      },
+      {
+        "close": 109.81,
+        "date": "\/Date(1459839600000-0700)\/",
+        "dateIndicator": 0,
+        "high": 110.73,
+        "indexClose": 2045.17,
+        "low": 109.42,
+        "volume": 26578600
+      },
+      {
+        "close": 111.12,
+        "date": "\/Date(1459753200000-0700)\/",
+        "dateIndicator": 0,
+        "high": 112.19,
+        "indexClose": 2066.13,
+        "low": 110.27,
+        "volume": 37356200
+      },
+      {
+        "close": 109.99,
+        "date": "\/Date(1459494000000-0700)\/",
+        "dateIndicator": 0,
+        "high": 110,
+        "indexClose": 2072.78,
+        "low": 108.2,
+        "volume": 25873900
+      },
+      {
+        "close": 108.99,
+        "date": "\/Date(1459407600000-0700)\/",
+        "dateIndicator": 0,
+        "high": 109.9,
+        "indexClose": 2059.74,
+        "low": 108.88,
+        "volume": 25888400
+      },
+      {
+        "close": 109.56,
+        "date": "\/Date(1459321200000-0700)\/",
+        "dateIndicator": 0,
+        "high": 110.42,
+        "indexClose": 2063.95,
+        "low": 108.6,
+        "volume": 45601100
+      },
+      {
+        "close": 107.68,
+        "date": "\/Date(1459234800000-0700)\/",
+        "dateIndicator": 0,
+        "high": 107.79,
+        "indexClose": 2055.01,
+        "low": 104.88,
+        "volume": 31190000
+      },
+      {
+        "close": 105.19,
+        "date": "\/Date(1459148400000-0700)\/",
+        "dateIndicator": 0,
+        "high": 106.19,
+        "indexClose": 2037.05,
+        "low": 105.06,
+        "volume": 19411300
+      },
+      {
+        "close": 105.67,
+        "date": "\/Date(1458889200000-0700)\/",
+        "dateIndicator": 1,
+        "high": 106.25,
+        "indexClose": 2035.94,
+        "low": 104.89,
+        "volume": 0
+      },
+      {
+        "close": 105.67,
+        "date": "\/Date(1458802800000-0700)\/",
+        "dateIndicator": 0,
+        "high": 106.25,
+        "indexClose": 2035.94,
+        "low": 104.89,
+        "volume": 26132900
+      },
+      {
+        "close": 106.13,
+        "date": "\/Date(1458716400000-0700)\/",
+        "dateIndicator": 0,
+        "high": 107.07,
+        "indexClose": 2036.71,
+        "low": 105.9,
+        "volume": 25703500
+      },
+      {
+        "close": 106.72,
+        "date": "\/Date(1458630000000-0700)\/",
+        "dateIndicator": 0,
+        "high": 107.29,
+        "indexClose": 2049.8,
+        "low": 105.21,
+        "volume": 32444300
+      },
+      {
+        "close": 105.91,
+        "date": "\/Date(1458543600000-0700)\/",
+        "dateIndicator": 0,
+        "high": 107.65,
+        "indexClose": 2051.6,
+        "low": 105.1401,
+        "volume": 35502600
+      },
+      {
+        "close": 105.92,
+        "date": "\/Date(1458284400000-0700)\/",
+        "dateIndicator": 0,
+        "high": 106.5,
+        "indexClose": 2049.58,
+        "low": 105.19,
+        "volume": 44205100
+      },
+      {
+        "close": 105.8,
+        "date": "\/Date(1458198000000-0700)\/",
+        "dateIndicator": 0,
+        "high": 106.47,
+        "indexClose": 2040.59,
+        "low": 104.96,
+        "volume": 34420700
+      },
+      {
+        "close": 105.97,
+        "date": "\/Date(1458111600000-0700)\/",
+        "dateIndicator": 0,
+        "high": 106.31,
+        "indexClose": 2027.22,
+        "low": 104.59,
+        "volume": 38303400
+      },
+      {
+        "close": 104.58,
+        "date": "\/Date(1458025200000-0700)\/",
+        "dateIndicator": 0,
+        "high": 105.18,
+        "indexClose": 2015.93,
+        "low": 103.85,
+        "volume": 40067700
+      },
+      {
+        "close": 102.52,
+        "date": "\/Date(1457938800000-0700)\/",
+        "dateIndicator": 0,
+        "high": 102.91,
+        "indexClose": 2019.64,
+        "low": 101.78,
+        "volume": 25076000
+      },
+      {
+        "close": 102.26,
+        "date": "\/Date(1457683200000-0800)\/",
+        "dateIndicator": 0,
+        "high": 102.28,
+        "indexClose": 2022.19,
+        "low": 101.5,
+        "volume": 27408200
+      },
+      {
+        "close": 101.17,
+        "date": "\/Date(1457596800000-0800)\/",
+        "dateIndicator": 0,
+        "high": 102.24,
+        "indexClose": 1989.57,
+        "low": 100.15,
+        "volume": 33513500
+      },
+      {
+        "close": 101.12,
+        "date": "\/Date(1457510400000-0800)\/",
+        "dateIndicator": 0,
+        "high": 101.58,
+        "indexClose": 1989.26,
+        "low": 100.27,
+        "volume": 27201600
+      },
+      {
+        "close": 101.03,
+        "date": "\/Date(1457424000000-0800)\/",
+        "dateIndicator": 0,
+        "high": 101.76,
+        "indexClose": 1979.26,
+        "low": 100.4,
+        "volume": 31561800
+      },
+      {
+        "close": 101.87,
+        "date": "\/Date(1457337600000-0800)\/",
+        "dateIndicator": 0,
+        "high": 102.83,
+        "indexClose": 2001.76,
+        "low": 100.96,
+        "volume": 35915800
+      },
+      {
+        "close": 103.01,
+        "date": "\/Date(1457078400000-0800)\/",
+        "dateIndicator": 0,
+        "high": 103.75,
+        "indexClose": 1999.99,
+        "low": 101.37,
+        "volume": 46055100
+      },
+      {
+        "close": 101.5,
+        "date": "\/Date(1456992000000-0800)\/",
+        "dateIndicator": 0,
+        "high": 101.7099,
+        "indexClose": 1993.4,
+        "low": 100.45,
+        "volume": 36955700
+      },
+      {
+        "close": 100.75,
+        "date": "\/Date(1456905600000-0800)\/",
+        "dateIndicator": 0,
+        "high": 100.89,
+        "indexClose": 1986.45,
+        "low": 99.64,
+        "volume": 33169500
+      },
+      {
+        "close": 100.53,
+        "date": "\/Date(1456819200000-0800)\/",
+        "dateIndicator": 0,
+        "high": 100.77,
+        "indexClose": 1978.35,
+        "low": 97.42,
+        "volume": 50407100
+      },
+      {
+        "close": 96.69,
+        "date": "\/Date(1456732800000-0800)\/",
+        "dateIndicator": 0,
+        "high": 98.23,
+        "indexClose": 1932.23,
+        "low": 96.65,
+        "volume": 35216200
+      },
+      {
+        "close": 96.91,
+        "date": "\/Date(1456473600000-0800)\/",
+        "dateIndicator": 0,
+        "high": 98.0237,
+        "indexClose": 1948.05,
+        "low": 96.58,
+        "volume": 28991100
+      },
+      {
+        "close": 96.76,
+        "date": "\/Date(1456387200000-0800)\/",
+        "dateIndicator": 0,
+        "high": 96.76,
+        "indexClose": 1951.7,
+        "low": 95.25,
+        "volume": 27582600
+      },
+      {
+        "close": 96.1,
+        "date": "\/Date(1456300800000-0800)\/",
+        "dateIndicator": 0,
+        "high": 96.38,
+        "indexClose": 1929.8,
+        "low": 93.32,
+        "volume": 36255700
+      },
+      {
+        "close": 94.69,
+        "date": "\/Date(1456214400000-0800)\/",
+        "dateIndicator": 0,
+        "high": 96.5,
+        "indexClose": 1921.27,
+        "low": 94.55,
+        "volume": 31942600
+      },
+      {
+        "close": 96.88,
+        "date": "\/Date(1456128000000-0800)\/",
+        "dateIndicator": 0,
+        "high": 96.9,
+        "indexClose": 1945.5,
+        "low": 95.92,
+        "volume": 34280700
+      },
+      {
+        "close": 96.04,
+        "date": "\/Date(1455868800000-0800)\/",
+        "dateIndicator": 0,
+        "high": 96.7599,
+        "indexClose": 1917.78,
+        "low": 95.8,
+        "volume": 35374100
+      },
+      {
+        "close": 96.26,
+        "date": "\/Date(1455782400000-0800)\/",
+        "dateIndicator": 0,
+        "high": 98.89,
+        "indexClose": 1917.83,
+        "low": 96.091,
+        "volume": 39020900
+      },
+      {
+        "close": 98.12,
+        "date": "\/Date(1455696000000-0800)\/",
+        "dateIndicator": 0,
+        "high": 98.21,
+        "indexClose": 1926.82,
+        "low": 96.15,
+        "volume": 44863200
+      },
+      {
+        "close": 96.64,
+        "date": "\/Date(1455609600000-0800)\/",
+        "dateIndicator": 0,
+        "high": 96.85,
+        "indexClose": 1895.58,
+        "low": 94.61,
+        "volume": 49057900
+      },
+      {
+        "close": 93.99,
+        "date": "\/Date(1455523200000-0800)\/",
+        "dateIndicator": 1,
+        "high": 94.5,
+        "indexClose": 1864.78,
+        "low": 93.01,
+        "volume": 0
+      },
+      {
+        "close": 93.99,
+        "date": "\/Date(1455264000000-0800)\/",
+        "dateIndicator": 0,
+        "high": 94.5,
+        "indexClose": 1864.78,
+        "low": 93.01,
+        "volume": 40351300
+      },
+      {
+        "close": 93.7,
+        "date": "\/Date(1455177600000-0800)\/",
+        "dateIndicator": 0,
+        "high": 94.72,
+        "indexClose": 1829.08,
+        "low": 92.59,
+        "volume": 50074700
+      },
+      {
+        "close": 94.27,
+        "date": "\/Date(1455091200000-0800)\/",
+        "dateIndicator": 0,
+        "high": 96.35,
+        "indexClose": 1851.86,
+        "low": 94.1,
+        "volume": 42343600
+      },
+      {
+        "close": 94.99,
+        "date": "\/Date(1455004800000-0800)\/",
+        "dateIndicator": 0,
+        "high": 95.94,
+        "indexClose": 1852.21,
+        "low": 93.93,
+        "volume": 44331200
+      },
+      {
+        "close": 95.01,
+        "date": "\/Date(1454918400000-0800)\/",
+        "dateIndicator": 0,
+        "high": 95.7,
+        "indexClose": 1853.44,
+        "low": 93.04,
+        "volume": 54021300
+      },
+      {
+        "close": 94.02,
+        "date": "\/Date(1454659200000-0800)\/",
+        "dateIndicator": 0,
+        "high": 96.92,
+        "indexClose": 1880.05,
+        "low": 93.69,
+        "volume": 46418000
+      },
+      {
+        "close": 96.6,
+        "date": "\/Date(1454572800000-0800)\/",
+        "dateIndicator": 0,
+        "high": 97.33,
+        "indexClose": 1915.45,
+        "low": 95.19,
+        "volume": 46471600
+      },
+      {
+        "close": 96.35,
+        "date": "\/Date(1454486400000-0800)\/",
+        "dateIndicator": 0,
+        "high": 96.84,
+        "indexClose": 1912.53,
+        "low": 94.08,
+        "volume": 45964200
+      },
+      {
+        "close": 94.48,
+        "date": "\/Date(1454400000000-0800)\/",
+        "dateIndicator": 0,
+        "high": 96.04,
+        "indexClose": 1903.03,
+        "low": 94.28,
+        "volume": 37357200
+      },
+      {
+        "close": 96.43,
+        "date": "\/Date(1454313600000-0800)\/",
+        "dateIndicator": 0,
+        "high": 96.71,
+        "indexClose": 1939.38,
+        "low": 95.4,
+        "volume": 40943500
+      },
+      {
+        "close": 97.34,
+        "date": "\/Date(1454054400000-0800)\/",
+        "dateIndicator": 0,
+        "high": 97.34,
+        "indexClose": 1940.24,
+        "low": 94.35,
+        "volume": 64416500
+      },
+      {
+        "close": 94.09,
+        "date": "\/Date(1453968000000-0800)\/",
+        "dateIndicator": 0,
+        "high": 94.52,
+        "indexClose": 1893.36,
+        "low": 92.39,
+        "volume": 55678800
+      },
+      {
+        "close": 93.42,
+        "date": "\/Date(1453881600000-0800)\/",
+        "dateIndicator": 0,
+        "high": 96.6289,
+        "indexClose": 1882.95,
+        "low": 93.34,
+        "volume": 133369700
+      },
+      {
+        "close": 99.99,
+        "date": "\/Date(1453795200000-0800)\/",
+        "dateIndicator": 0,
+        "high": 100.88,
+        "indexClose": 1903.63,
+        "low": 98.07,
+        "volume": 75077000
+      },
+      {
+        "close": 99.44,
+        "date": "\/Date(1453708800000-0800)\/",
+        "dateIndicator": 0,
+        "high": 101.53,
+        "indexClose": 1877.08,
+        "low": 99.21,
+        "volume": 51794500
+      },
+      {
+        "close": 101.42,
+        "date": "\/Date(1453449600000-0800)\/",
+        "dateIndicator": 0,
+        "high": 101.46,
+        "indexClose": 1906.9,
+        "low": 98.37,
+        "volume": 65800400
+      },
+      {
+        "close": 96.3,
+        "date": "\/Date(1453363200000-0800)\/",
+        "dateIndicator": 0,
+        "high": 97.88,
+        "indexClose": 1868.99,
+        "low": 94.94,
+        "volume": 52161400
+      },
+      {
+        "close": 96.79,
+        "date": "\/Date(1453276800000-0800)\/",
+        "dateIndicator": 0,
+        "high": 98.1897,
+        "indexClose": 1859.33,
+        "low": 93.42,
+        "volume": 72334400
+      },
+      {
+        "close": 96.66,
+        "date": "\/Date(1453190400000-0800)\/",
+        "dateIndicator": 0,
+        "high": 98.65,
+        "indexClose": 1881.33,
+        "low": 95.5,
+        "volume": 53087700
+      }
+    ],
+    "source": "IDCCLOSE",
+    "startDate": "\/Date(1453190400000-0800)\/",
+    "summary": {
+      "URL": "www.apple.com",
+      "headquarters": "Cupertino, CA",
+      "newIssue": "\/Date(345456000000-0800)\/",
+      "phone": "408-996-1010",
+      "shortStory": "MANUFACTURES PERSONAL COMPUTERS, PORTABLE DIGITAL MUSIC AND VIDEO PLAYERS, AND MOBILE COMMUNICATION DEVICES."
+    },
+    "symbol": "AAPL",
+    "type": 1
+  }
+}

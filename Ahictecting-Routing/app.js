@@ -13,7 +13,6 @@ import  dataProvider from '../DataProvider/CustomDataProvirder'
 let currentTrades = dataProvider.GetCurrentTrades();
 let pastTrades = dataProvider.GetPastTrades();
 
-
 class App extends Component {
 
     constructor() {
@@ -25,6 +24,7 @@ class App extends Component {
 
     componentDidMount() {
         window.addEventListener('hashchange', () => {
+            console.log('change has ');
             this.setState({
                 route: window.location.hash.substr(1)
             });

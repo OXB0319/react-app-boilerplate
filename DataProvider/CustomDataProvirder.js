@@ -1,7 +1,7 @@
 /**
  * Created by xiaobing on 2016/7/28.
  */
-import 'whatwg-fetch'
+import 'whatwg-fetch';
 
 var DataProvider = {
   GetCurrentTrades(){

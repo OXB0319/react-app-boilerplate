@@ -2,7 +2,7 @@
  * Created by xiaobing on 2016/7/26.
  */
 import React,{Component}  from 'react';
-
+import TradeList from './TradeList';
 class  CurrentTrades extends Component{
     constructor(){
         super(...arguments);
@@ -17,8 +17,7 @@ class  CurrentTrades extends Component{
     }
 
     render(){
-        let currentTrades = this.state.trades.map((trade) =>(<div key={trade.id}> {trade.stockSymbol}</div>));
-        return(<div><div>{this.props.route.title}</div>{currentTrades}</div>);
+        return(<div><h2>{this.props.route.title}</h2><TradeList trades = {this.state.trades}/></div>);
     }
 }
 

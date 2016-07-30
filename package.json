@@ -17,8 +17,10 @@
     "webpack-dev-server": "~1.14.*"
   },
   "dependencies": {
+    "bootstrap": "^3.3.7",
     "react": "^15.0.0",
     "react-dom": "^15.0.0",
-    "redux": "^3.5.2"
+    "redux": "^3.5.2",
+    "whatwg-fetch": "^1.0.0"
   }
 }

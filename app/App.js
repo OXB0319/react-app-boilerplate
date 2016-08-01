@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {render} from 'react-dom';
-import {Router, Route, IndexRoute, Link, browserHistory} from 'react-router';
+import {Router, Route, IndexRoute, Link, hashHistory} from 'react-router';
 import BookStore from './BookStore';
 import Account from './Account';
 
@@ -21,7 +21,7 @@ class App extends Component {
     }
 }
 
-render(<Router history={browserHistory}>
+render(<Router history={hashHistory}>
     <Route path="/" Component={App}>
         <IndexRoute Component={Account}/>
         <Route path="account" Componnet={Account}/>

@@ -8,6 +8,13 @@ class App extends Component {
     constructor(){
         super();
     }
+    componentWillMount(){
+        console.log('22222');
+    }
+
+    componentDidMount(){
+        console.log('11111');
+    }
 
     render() {
         return (
@@ -25,10 +32,10 @@ class App extends Component {
     }
 }
 
-render(<Router history={hashHistory}>
+render((<Router history={hashHistory}>
     <Route path="/" Component= {App} >
         <IndexRoute Component={Account}/>
         <Route path="account" Componnet={Account}/>
         <Route path="bookstore" Componnet={BookStore}/>
     </Route>
-</Router>, document.getElementById('root'));
+</Router>), document.getElementById('root'));

@@ -9,6 +9,5 @@ class BookStore extends Component {
             <div> This is BookStore</div>
         );
     }
-
 }
 export default BookStore;

@@ -3,29 +3,49 @@ import {render} from 'react-dom';
 import {Router, Route, IndexRoute, Link, hashHistory} from 'react-router';
 import BookStore from './BookStore';
 import Account from './Account';
+import $ from  'jquery';
 
 class App extends Component {
-    constructor(){
+    constructor() {
         super();
     }
-    componentWillMount(){
+
+    componentWillMount() {
         console.log('22222');
     }
 
-    componentDidMount(){
+    componentDidMount() {
+        $(function() {
+            $('button.navbar-toggle').click(function(){
+                console.log(222222);
+                $('body').toggleClass('out');
+                $('nav.navbar-fixed-top').toggleClass('out');
+                if ($('body').hasClass('out')) {
+                    $(this).focus();
+                } else {
+                    $(this).blur();
+                }
+            });
+        });
         console.log('11111');
     }
 
     render() {
+        console.log(this.props);
+
         return (
-            <div>
-                <header>Book Rent System</header>
-                <menu>
-                    <ul className="nav nav-tabs">
-                        <li ><Link activeClassName="active" to="/account">个人信息</Link></li>
-                        <li><Link activeClassName="active" to="/bookstore">书库</Link></li>
-                    </ul>
-                </menu>
+            <div className="container">
+
+                    <header><h1>Book Rent System</h1>
+                    <input type="button" value="Menu" style={{}}/></header>
+                    <aside id='aside'>
+                        <menu>
+                            <ul className="nav navbar-toggle">
+                                <li><Link activeClassName="active" to="/account">个人信息</Link></li>
+                                <li><Link activeClassName="active" to="/bookstore">书库</Link></li>
+                            </ul>
+                        </menu>
+                    </aside>
                 {this.props.children}
             </div>
         );
@@ -33,9 +53,9 @@ class App extends Component {
 }
 
 render((<Router history={hashHistory}>
-    <Route path="/" Component= {App} >
-        <IndexRoute Component={Account}/>
-        <Route path="account" Componnet={Account}/>
-        <Route path="bookstore" Componnet={BookStore}/>
+    <Route path="/" component={App}>
+        <IndexRoute component={Account}/>
+        <Route path="account" component={Account}/>
+        <Route path="bookstore" component={BookStore}/>
     </Route>
 </Router>), document.getElementById('root'));

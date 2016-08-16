@@ -9,7 +9,6 @@
 $(document).click(function(e) {
   if (!$(e.target).closest('.navbar-collapse, button.navbar-toggle').length && $('body').hasClass('out')) {
     e.preventDefault();
-    console.log(1111111);
     $('button.navbar-toggle').trigger('click');
   }
 }).keyup(function(e) {

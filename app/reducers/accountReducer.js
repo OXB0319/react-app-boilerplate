@@ -10,8 +10,6 @@ const accountReducer = (state = initialState, action) => {
     //console.log(action); //Temporarily logging all actions
     switch (action.type) {
         case constants.CREATE_ACCOUNT:
-            console.log('gagagaggaag');
-            console.log({account: action.account});
             return {account: action.account};
         case constants.UPDATE_ACCOUNT_INFO:
             return update(state,{account:{$apply: userName => action.userName + '1111', $apply: age => action.age + 111}});

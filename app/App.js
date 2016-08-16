@@ -73,7 +73,7 @@ class App extends Component {
                         </li>
                     </ul>
                 </div>
-                <div style={{height:'40px',backgroundColor:'grey',zIndex:'4'}}>
+                <div style={{height:'40px',backgroundColor:'grey'}}>
                     <header>
                         <input type="button" style={{position:'relative',top:'5px',left:'5px'}} id="btnMenu"
                                value="Menu" onClick={this.menuClickHandler.bind(this)}/>
@@ -104,10 +104,7 @@ const BankAppContainer = connect(mapStateToProps, mapDispatchToProps)(App);
 
 render(
     <Provider store={store}>
-        <BankAppContainer
-            onCreateAccount={(account) => {store.dispatch({type:constants.CREATE_ACCOUNT, account: account})}}
-            onChangeRoute={(path)=> {store.dispatch({type: constants.CHANGE_ROUTE, path: path})}}
-        />
+        <BankAppContainer/>
     </Provider>,
     document.getElementById('root')
 );

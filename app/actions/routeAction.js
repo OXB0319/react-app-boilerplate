@@ -5,7 +5,6 @@ import constants from'../Constants';
 
 const routeAction = {
     changePath(path) {
-        console.log('inter route action');
         return {type:constants.CHANGE_ROUTE,path:path}
     }
 }
